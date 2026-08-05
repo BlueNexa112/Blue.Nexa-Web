@@ -1,0 +1,158 @@
+/* ===========================
+   Tablet
+=========================== */
+
+@media (max-width: 992px){
+
+    .hero{
+
+        padding:30px;
+
+    }
+
+    .hero h2{
+
+        font-size:26px;
+
+    }
+
+    .cards{
+
+        grid-template-columns:
+        repeat(auto-fit,minmax(200px,1fr));
+
+    }
+
+}
+
+/* ===========================
+   Mobile
+=========================== */
+
+@media (max-width:768px){
+
+    main{
+
+        padding:15px;
+
+    }
+
+    header{
+
+        margin-bottom:20px;
+
+    }
+
+    .hero{
+
+        padding:25px 20px;
+
+    }
+
+    .hero h2{
+
+        font-size:24px;
+
+    }
+
+    .hero p{
+
+        font-size:15px;
+
+    }
+
+    .cards{
+
+        grid-template-columns:1fr;
+
+        gap:15px;
+
+    }
+
+    .card{
+
+        padding:20px;
+
+    }
+
+    .card .icon{
+
+        font-size:38px;
+
+    }
+
+    .card h2{
+
+        font-size:30px;
+
+    }
+
+    .btn{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+    #sidebar{
+
+        width:240px;
+
+    }
+
+}
+
+/* ===========================
+   Small Mobile
+=========================== */
+
+@media (max-width:480px){
+
+    #menuBtn{
+
+        width:42px;
+
+        height:42px;
+
+        font-size:20px;
+
+    }
+
+    header h1{
+
+        font-size:22px;
+
+    }
+
+    .hero{
+
+        padding:20px 18px;
+
+    }
+
+    .hero h2{
+
+        font-size:22px;
+
+    }
+
+    .hero p{
+
+        font-size:14px;
+
+    }
+
+    .card{
+
+        padding:18px;
+
+    }
+
+    .info-box{
+
+        padding:20px;
+
+    }
+
+}
